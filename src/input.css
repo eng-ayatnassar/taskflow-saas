@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 380px) {
+  .taskflow-header { gap: 6px; padding-inline: 10px; }
+  .taskflow-header > a { gap: 6px; padding: 0; }
+  .taskflow-header > a > div:first-child { width: 28px; height: 28px; }
+  .taskflow-header > a .font-bold { font-size: 14px; }
+  .taskflow-header #langToggleBtn { padding-inline: 6px; font-size: 10px; }
+  .taskflow-header .header-cta { padding-inline: 8px; font-size: 11px; }
+}
